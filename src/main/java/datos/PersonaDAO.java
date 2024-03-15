@@ -19,7 +19,8 @@ public class PersonaDAO {
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
-		// recuperamos cada reglón y lo convertimos en un objeto del tipo persona.
+		// recuperamos cada reglón y lo convertimos en un objeto del tipo persona y lo
+		// guardamos en una array list
 		Persona persona = null;
 		List<Persona> personas = new ArrayList<>();
 

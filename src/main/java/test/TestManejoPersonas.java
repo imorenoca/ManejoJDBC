@@ -12,6 +12,12 @@ public class TestManejoPersonas {
 		for (Persona persona: personas) {
 			System.out.println("persona = "+ persona);
 		}
+		/*Utiliza el paradigma de programación funcional y expresiones lambda.
+		Permite operaciones más complejas en cada elemento de la colección.
+		Puede ser más flexible en ciertos contextos, especialmente cuando se combinan con otras operaciones de flujo (stream) como filter, map, reduce, etc.*/
+		personas.forEach(persona->{
+			System.out.println("persona = "+ persona);
+		});
 	}
 
 }
